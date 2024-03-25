@@ -1,0 +1,28 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.box{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: solid black 1px;
+    background-color: white;
+    padding: 5px;   
+    width: 200px;
+
+
+}
+.box1{
+    text-align: left;
+}
+.box2{
+    text-align: center;
+}
+
+.box3{
+    text-align: end;
+    
+}
+.principal{
+    
+}

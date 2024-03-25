@@ -1,0 +1,92 @@
+.main {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  border-radius: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 10px grey;
+}
+.borde {
+  background-color: grey;
+  margin: 0 auto;
+  width: 330px;
+  height: 330px;
+  border-radius: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diana {
+  border-radius: 160px;
+  position: absolute;
+}
+
+.diana-1 {
+  background-color: red;
+  width: 299.7px;
+  height: 299.7px;
+}
+
+.diana-2 {
+  background-color: white;
+  width: 266.4px;
+  height: 266.4px;
+}
+
+.diana-3 {
+  background-color: red;
+  width: 233.1px;
+  height: 233.1px;
+}
+
+.diana-4 {
+  background-color: white;
+  width: 199.8px;
+  height: 199.8px;
+}
+
+.diana-5 {
+  background-color: red;
+  width: 166.5px;
+  height: 166.5px;
+}
+.diana-6 {
+  background-color: white;
+  width: 133.2px;
+  height: 133.2px;
+}
+.diana-7 {
+  background-color: red;
+  width: 99.9px;
+  height: 99.9px;
+}
+.diana-8 {
+  background-color: white;
+  width: 66.6px;
+  height: 66.6px;
+}
+.diana-9 {
+  background-color: red;
+  width: 33.3px;
+  height: 33.3px;
+}
+.lineas {
+  z-index: 100;
+  position: absolute;
+}
+
+.linea-horizontal {
+  width: 300px;
+  height: 2px;
+  background-color: black;
+}
+
+.linea-vertical {
+  width: 2px;
+  height: 300px;
+  background-color: black;
+}

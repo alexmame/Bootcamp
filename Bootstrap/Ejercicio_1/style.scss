@@ -1,0 +1,15 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+.container-fluid {
+  position: absolute; /* Posición absoluta */
+  width: 100%; /* Ancho al 100% del viewport */
+  height: 100%; /* Altura al 100% del viewport */
+
+  @include media-breakpoint-up(sm) {
+    // Estilos específicos para pantallas pequeñas (y más grandes)
+    background-color: red;
+  }
+}

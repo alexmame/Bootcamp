@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+}
+main{
+  margin: 20px;
+}
+
+.container-1{
+  margin-bottom: 20px;
+}
+
+.orange{
+  background-color: #fea332;
+  margin: 10px;
+  height: 100px;
+  width: 100vw;
+
+}
+.container-1{
+  display: flex;
+}
+
+/* Mobile */
+@media(width<=320px){
+
+}
+
+/* Tablet */
+@media(321px < width < 1024px){
+  .container-1{
+    display: block;
+  }
+  .orange{
+    width: 368px;
+  }
+}
+
+/* Desktop */
+
+.divs{
+    margin: 10px ;
+  
+}
+
+.amarillo {
+  background-color: #dbec00;
+  height: 200px;
+}
+.azul {
+  background-color: #4a89d0;
+  height: 80px;
+}
+
+.gris {
+  background-color: #e3e3e3;
+  height: 80px;
+}
+
+/*@media (1024px <= width) {
+  .naranjas {
+    display: flex;
+  }
+  .naranja {
+    background-color: orange;
+  }
+} */

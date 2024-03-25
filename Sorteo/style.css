@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#formulario {
+    margin-bottom: 20px;
+}
+
+#formulario input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}

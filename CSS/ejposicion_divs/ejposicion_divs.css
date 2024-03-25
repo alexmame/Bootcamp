@@ -1,0 +1,49 @@
+.div {
+  background-color: yellowgreen;
+  border-radius: 50px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border: solid black;
+}
+.principal{
+    margin: 0 auto;
+    width: 150px;
+}
+
+.div5 {
+  background-color: red;
+  margin:20px 20px;
+  border: solid black;
+
+
+
+}
+
+.div1{
+    position: relative;
+    top: -20px;
+    left: -20px;
+
+}
+
+.div2{
+    position: relative;
+    top: -45px;
+    right: -140px;
+}
+
+
+
+.div4{
+    position: relative;
+    top: 20px;
+    right: -140px;
+}
+
+.div3{
+    position: relative;
+    top: 40px;
+    right: 15px;
+}
+

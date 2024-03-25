@@ -1,0 +1,10 @@
+div {
+  overflow: auto;
+  background-color: greenyellow;
+  height: 200px;
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px 30px;
+  text-align: justify;
+  margin-top: 150px;
+}

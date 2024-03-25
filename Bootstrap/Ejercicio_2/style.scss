@@ -1,0 +1,16 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+@include media-breakpoint-between(xs, md) {
+  .container-fluid {
+    background-color: violet;
+  }
+}
+
+@include media-breakpoint-between(md, xxxl) {
+  .container-fluid {
+    background-color: green;
+  }
+}

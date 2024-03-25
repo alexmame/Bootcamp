@@ -1,0 +1,21 @@
+h1{
+    color: red;
+    display: inline-block;
+}
+h1:hover {
+    color: blue;
+    cursor: pointer;
+  }
+body{
+    background-color: wheat;
+}
+p{
+column-count: 3 ;
+column-gap: 40px ;
+column-rule: 2px solid red ;
+}
+
+::p{
+    color: blue;
+    cursor: pointer;
+}

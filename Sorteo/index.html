@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteo de Participantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sorteo de Participantes</h1>
+    
+    <div id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre del participante">
+        <button onclick="agregarParticipante()">Añadir</button>
+    </div>
+    
+    <div id="lista-participantes">
+        <h2>Participantes</h2>
+        <ul id="participantes"></ul>
+    </div>
+
+    <div id="lista-eliminados">
+        <h2>Participantes Eliminados</h2>
+        <ul id="eliminados"></ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

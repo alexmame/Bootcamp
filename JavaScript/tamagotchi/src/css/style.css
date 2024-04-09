@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+}
+.contenedor {
+  height: 100vh; /* ponemos el 100% de la pantalla, pero de esta manera solo es lo visual, por lo que usamos "vh"*/
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*ponemos el grid template para decirle que queremos 2 columsas del mismo tamaño con el 1fr 1fr*/
+  grid-template-rows: 1fr 1fr; /* Lo mismo para las filas que queremos, en este caso 2 del mismo tamaño*/
+}
+
+/* Estilos para los botones */
+button {
+  font-size: 30px; /* Tamaño del texto */
+  width: 100px; /* Ancho del botón */
+  height: 100px; /* Altura del botón */
+  border-radius: 50%; /* Hacemos el botón redondo */
+  border: none; /* Quitamos el borde */
+  background: white; /* Quitamos el fondo */
+  cursor: pointer; /* Cambiamos el cursor a un puntero */
+  margin: 30px;
+}
+
+/* Estilos para los contenedores */
+.comida {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  background-color: green;
+ 
+}
+
+.jugar {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  background-color: yellow;
+
+}
+
+.pelear {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  background-color: pink;
+ 
+}
+
+.dormir {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  background-color: skyblue;
+
+}
+.imagen-centrada {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

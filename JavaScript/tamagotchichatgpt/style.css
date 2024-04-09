@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .tamagotchi-box {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+  }
+  
+  .bar {
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .vida {
+    background-color: red;
+  }
+  
+  .diversion {
+    background-color: blue;
+  }
+  
+  .energia {
+    background-color: yellow;
+  }
+  
+  .sueno {
+    background-color: purple;
+  }
+  

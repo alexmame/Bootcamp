@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<link rel="stylesheet" href="style.css">
+<html lang="es">
+<link rel="stylesheet" href="./src/css/style.css">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,42 @@
 
 <body>
     <div class="contenedor">
-        <div class="comida"></div>
-        <div class="jugar"></div>
-        <div class="pelear"></div>
-        <div class="dormir"></div>
+
+        <div class="comida">
+            <div class="botones">
+                <div class="comida"></div>
+                <button onclick="alimentar(1)">🍔</button>
+                <button onclick="alimentar(2)">🍗</button>
+                <button onclick="alimentar(3)">🥪</button>
+            </div>
+            <h2>COMER</h2>
+
+        </div>
+        <div class="jugar">
+            <div class="botones">
+                <button onclick="jugar(1)">🎮</button>
+                <button onclick="jugar(2)">🕹</button>
+            </div>
+            <h2>JUGAR</h2>
+        </div>
+        <div class="pelear">
+
+            <div class="botones">
+                <button onclick="pelear('Pegar')">👊</button>
+                <button onclick="pelear('Huir')">🏃‍♂️</button>
+            </div>
+            <h2>PELEAR</h2>
+        </div>
+        <div class="dormir">
+
+            <div class="botones">
+                <div class="bar sueno"></div>
+                <button onclick="dormir()">🌙</button>
+                <button onclick="dormir()">☀</button>
+            </div>
+            <h2>DORMIR</h2>
+        </div>
+        <img class="imagen-centrada" src="./src/img/giphy-unscreen.gif" alt="gif tamagotchi">
     </div>
 
 </body>

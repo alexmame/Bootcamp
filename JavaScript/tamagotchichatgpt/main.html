@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamagotchi</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="tamagotchi-box" id="comida">
+      <h2>Comida</h2>
+      <div class="bar vida"></div>
+      <button onclick="alimentar(1)">Comer poco</button>
+      <button onclick="alimentar(2)">Comer moderado</button>
+      <button onclick="alimentar(3)">Comer mucho</button>
+    </div>
+    <div class="tamagotchi-box" id="jugar">
+      <h2>Jugar</h2>
+      <div class="bar diversion"></div>
+      <button onclick="jugar(1)">Jugar poco</button>
+      <button onclick="jugar(2)">Jugar moderado</button>
+      <button onclick="jugar(3)">Jugar mucho</button>
+    </div>
+    <div class="tamagotchi-box" id="pelear">
+      <h2>Pelea</h2>
+      <div class="bar energia"></div>
+      <button onclick="pelear('Pegar')">Pegar</button>
+      <button onclick="pelear('Huir')">Huir</button>
+    </div>
+    <div class="tamagotchi-box" id="dormir">
+      <h2>Dormir</h2>
+      <div class="bar sueno"></div>
+      <button onclick="dormir()">Ir a dormir</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

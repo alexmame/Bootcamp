@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../Repositorios"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Bootcamp"
+	}
+}
